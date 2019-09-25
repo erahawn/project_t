@@ -13,21 +13,12 @@
 
 <body>
     <h1>Shopping list</h1>
-    <input type="text" id="form" value="" />
-    <button id="button" onclick="getValue()">Add</button>
-    <ul id="item">
-        <li>hej</li>
-        <li>hej</li>
-    </ul>
-
-    <!-- <form><input type="text" placeholder="Add item" id="todoItem" onsubmit="addToList();"></form>
-    <button type="button" onclick="addToList()">Add item</button>
-    <button type="button" onclick="removeAll()">Clear All</button> -->
-
-
-
-    </ul>
-
+    <input id="enter" type="text">
+    <input type="button" value="Add to list" onclick="getValue()">
+    <br>
+    <br>
+    <!-- unordered list. kan ändras till <ol> om vi vill ha numrerat -->
+    <div id="list"><ul></ul></div>
 </body>
 
 </html>
