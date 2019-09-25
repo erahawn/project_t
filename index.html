@@ -7,18 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lista</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
 </head>
 
-
-<body>
+<body onload="document.getElementById('enter').focus();">
     <h1>Shopping list</h1>
     <input id="enter" type="text">
     <input type="button" value="Add to list" onclick="getValue()">
     <br>
     <br>
     <!-- unordered list. kan ändras till <ol> om vi vill ha numrerat -->
-    <div id="list"><ul></ul></div>
+    <ul id="list">
+        
+    </ul>
+    <div>
+        <button id="deletebutton" onclick="deletebutton()"> Radera! </button>
+    </div>
+
+    <!--Toms HTML
+            <h1>hej</h1>
+    <form>
+        <label for="new todo">add todo</label>
+        <input id="new todo" type="text">
+        <button type="submit" id="button">Add</button>
+    </form>
+
+<ul id="incomplete">
+    <li>apa</li>
+    <li>apa2</li>
+    <li>apa3</li>
+    <li>apa4</li>
+</ul>
+        -->
+<script src="app.js"></script>
 </body>
 
+
 </html>
+
